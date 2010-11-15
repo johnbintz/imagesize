@@ -10,5 +10,6 @@ Gem::Specification.new do |s|
   s.email    = 'keisuke@rccn.com'
   s.homepage = 'http://rubygems.org/gems/imagesize'
 
-  s.files = FileList['imagesize.gemspec', '*.rb', 'lib/**/*.rb', 'test/*', 'README.txt', 'Manifest.txt']
+  s.files        = `git ls-files`.split("\n")
+  s.require_path = 'lib'
 end
