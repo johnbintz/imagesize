@@ -1,5 +1,3 @@
-require 'rake'
-
 Gem::Specification.new do |s|
   s.name        = 'imagesize'
   s.description = 'measure image size(GIF, PNG, JPEG ,,, etc) code by Pure Ruby'
@@ -13,6 +11,4 @@ Gem::Specification.new do |s|
   s.homepage = 'http://rubygems.org/gems/imagesize'
 
   s.files = FileList['imagesize.gemspec', '*.rb', 'lib/**/*.rb', 'test/*', 'README.txt', 'Manifest.txt']
-  
-  s.add_dependency 'activerecord', '>= 2.1.0'
 end
